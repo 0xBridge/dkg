@@ -15,7 +15,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/bytemare/ecc"
+	"github.com/0xBridge/ecc"
 )
 
 var errInvalidPolynomialLength = errors.New("invalid polynomial length (exceeds uint16 limit 65535)")

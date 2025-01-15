@@ -11,8 +11,8 @@ package dkg_test
 import (
 	"fmt"
 
-	secretsharing "github.com/bytemare/secret-sharing"
-	"github.com/bytemare/secret-sharing/keys"
+	secretsharing "github.com/0xBridge/secret-sharing"
+	"github.com/0xBridge/secret-sharing/keys"
 
 	"github.com/0xBridge/dkg"
 )
@@ -149,7 +149,7 @@ func Example_dkg() {
 	// private keys, as it defeats the purpose of a DKG and might expose them.
 	g := c.Group()
 	shares := make(
-		[]keys.Share,
+		[]*keys.KeyShare,
 		threshold,
 	) // Here you would add the secret keys from the other participants.
 	for i, k := range keyShares[:threshold] {

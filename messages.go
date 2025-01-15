@@ -16,7 +16,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/bytemare/ecc"
+	"github.com/0xBridge/ecc"
 )
 
 var (

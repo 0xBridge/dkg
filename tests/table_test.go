@@ -12,7 +12,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/bytemare/ecc"
+	"github.com/0xBridge/ecc"
 
 	"github.com/0xBridge/dkg"
 )

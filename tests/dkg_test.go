@@ -15,9 +15,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bytemare/ecc"
-	secretsharing "github.com/bytemare/secret-sharing"
-	"github.com/bytemare/secret-sharing/keys"
+	"github.com/0xBridge/ecc"
+	secretsharing "github.com/0xBridge/secret-sharing"
+	"github.com/0xBridge/secret-sharing/keys"
 
 	"github.com/0xBridge/dkg"
 )
@@ -87,7 +87,7 @@ func TestCompleteDKG(t *testing.T) {
 
 		// Verify the threshold scheme by combining a subset of the shares.
 		{
-			combinedKeyShares := make([]keys.Share, 0, len(quals))
+			combinedKeyShares := make([]*keys.KeyShare, 0, len(quals))
 			for _, k := range keyShares {
 				combinedKeyShares = append(combinedKeyShares, k)
 			}

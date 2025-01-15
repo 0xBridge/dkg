@@ -17,8 +17,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bytemare/ecc"
-	"github.com/bytemare/ecc/debug"
+	"github.com/0xBridge/ecc"
+	"github.com/0xBridge/ecc/debug"
 
 	"github.com/0xBridge/dkg"
 )

@@ -15,7 +15,7 @@ import (
 	"slices"
 
 	"filippo.io/edwards25519"
-	"github.com/bytemare/ecc"
+	"github.com/0xBridge/ecc"
 	"github.com/bytemare/hash"
 	"github.com/gtank/ristretto255"
 )

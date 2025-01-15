@@ -14,9 +14,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bytemare/ecc"
-	secretsharing "github.com/bytemare/secret-sharing"
-	"github.com/bytemare/secret-sharing/keys"
+	"github.com/0xBridge/ecc"
+	secretsharing "github.com/0xBridge/secret-sharing"
+	"github.com/0xBridge/secret-sharing/keys"
 )
 
 // A Ciphersuite defines the elliptic curve group to use.
