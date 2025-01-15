@@ -20,7 +20,7 @@ import (
 	"github.com/bytemare/ecc"
 	"github.com/bytemare/ecc/debug"
 
-	"github.com/bytemare/dkg"
+	"github.com/0xBridge/dkg"
 )
 
 func TestRound1_Decode_Fail(t *testing.T) {

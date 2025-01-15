@@ -1,4 +1,4 @@
-module github.com/bytemare/dkg
+module github.com/0xBridge/dkg
 
 go 1.23.1
 

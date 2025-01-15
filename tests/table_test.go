@@ -14,7 +14,7 @@ import (
 
 	"github.com/bytemare/ecc"
 
-	"github.com/bytemare/dkg"
+	"github.com/0xBridge/dkg"
 )
 
 func testAllCases(t *testing.T, f func(*testCase)) {

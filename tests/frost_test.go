@@ -15,7 +15,7 @@ import (
 
 	"github.com/bytemare/ecc"
 
-	"github.com/bytemare/dkg"
+	"github.com/0xBridge/dkg"
 )
 
 func readHexScalar(t *testing.T, g ecc.Group, input string) *ecc.Scalar {

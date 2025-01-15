@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bytemare/dkg"
+	"github.com/0xBridge/dkg"
 )
 
 type serde interface {

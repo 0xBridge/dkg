@@ -14,7 +14,7 @@ import (
 	secretsharing "github.com/bytemare/secret-sharing"
 	"github.com/bytemare/secret-sharing/keys"
 
-	"github.com/bytemare/dkg"
+	"github.com/0xBridge/dkg"
 )
 
 // Example_dkg shows the 3-step 2-message distributed key generation procedure that must be executed by each participant

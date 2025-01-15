@@ -1,10 +1,10 @@
 # Distributed Key Generation
-[![dkg](https://github.com/bytemare/dkg/actions/workflows/code-scan.yml/badge.svg)](https://github.com/bytemare/dkg/actions/workflows/code-scan.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/bytemare/dkg.svg)](https://pkg.go.dev/github.com/bytemare/dkg)
+[![dkg](https://github.com/0xBridge/dkg/actions/workflows/code-scan.yml/badge.svg)](https://github.com/0xBridge/dkg/actions/workflows/code-scan.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/0xBridge/dkg.svg)](https://pkg.go.dev/github.com/0xBridge/dkg)
 [![codecov](https://codecov.io/gh/bytemare/dkg/branch/main/graph/badge.svg?token=5bQfB0OctA)](https://codecov.io/gh/bytemare/dkg)
 
 ```
-  import "github.com/bytemare/dkg"
+  import "github.com/0xBridge/dkg"
 ```
 
 Package dkg provides an efficient distributed key generation system in Go, easy to use.
@@ -20,9 +20,9 @@ generally valid keys, and can be used in [FROST](https://github.com/bytemare/fro
 - Pederson introduced the [first DKG protocol](https://link.springer.com/chapter/10.1007/3-540-46416-6_47), based on Feldman's Verifiable Secret Sharing.
 - Komlo & Goldberg [add zero-knowledge proofs](https://eprint.iacr.org/2020/852.pdf) to the Ped-DKG.
 
-## Documentation [![Go Reference](https://pkg.go.dev/badge/github.com/bytemare/dkg.svg)](https://pkg.go.dev/github.com/bytemare/dkg)
+## Documentation [![Go Reference](https://pkg.go.dev/badge/github.com/0xBridge/dkg.svg)](https://pkg.go.dev/github.com/0xBridge/dkg)
 
-You can find the documentation and usage examples in [the package doc](https://pkg.go.dev/github.com/bytemare/dkg).
+You can find the documentation and usage examples in [the package doc](https://pkg.go.dev/github.com/0xBridge/dkg).
 
 ## Usage
 
@@ -65,7 +65,7 @@ For each participant:
 
 ## Versioning
 
-[SemVer](http://semver.org) is used for versioning. For the versions available, see the [tags on the repository](https://github.com/bytemare/dkg/tags).
+[SemVer](http://semver.org) is used for versioning. For the versions available, see the [tags on the repository](https://github.com/0xBridge/dkg/tags).
 
 ## Contributing
 
